@@ -337,7 +337,7 @@ img:hover {
     text-align: center;
     color: var(--cream);
     bottom: 8vh;
-    left: 85vw;
+    left: 75vw;
     max-width: 70%;
     font-size: 1.2rem;
     background-color: rgba(0, 0, 0, .8);
@@ -383,7 +383,7 @@ footer i {
 
 /* change elements when window is at least 850 wide */
 
-@media (min-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-width: 800px) and (-webkit-min-device-pixel-ratio: 1) {
     body {
         width: 100%;
         padding: 0px;
@@ -505,6 +505,7 @@ footer i {
     }
     #to-top {
         font-size: 1.8rem;
+        left: 85vw;
     }
     footer .contacts {
         text-align: center;
