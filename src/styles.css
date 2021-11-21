@@ -366,7 +366,10 @@ footer i {
 
 /* change elements when window is at least 790px wide */
 
-@media screen and (min-width:790px) {
+
+/* For landscape layouts only */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
     body {
         width: 100%;
         padding: 0px;
@@ -467,9 +470,9 @@ footer i {
 }
 
 
-/* change elements when window is at least 1850px */
+/* change elements when desktop */
 
-@media screen and (min-width: 1850px) {
+@media screen and (min-width: 1025px) {
     .nav-menu {
         align-items: center;
         justify-content: center;
