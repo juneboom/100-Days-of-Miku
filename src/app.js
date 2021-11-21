@@ -153,4 +153,18 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("resize", lazyload);
     window.addEventListener("orientationChange", lazyload);
 
-});
+})
+
+var rootElement = document.documentElement;
+var scrollBtn = document.getElementById("to-top");
+
+function scrollToTop() {
+    //scroll back to top
+    rootElement.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+        //console.log("clicked")
+}
+
+scrollBtn.addEventListener("click", scrollToTop);
