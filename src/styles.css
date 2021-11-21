@@ -49,12 +49,12 @@ header {
     color: var(--cream);
     text-decoration: none;
     font-family: 'Bayon', sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
     display: block;
 }
 
 .site-banner span+span {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-family: 'Bayon', sans-serif;
 }
 
@@ -368,9 +368,9 @@ footer i {
 }
 
 
-/* change elements when window is at least 768px wide */
+/* change elements when window is at least 850 wide */
 
-@media (min-width: 768px) {
+@media (min-width: 850px) and (-webkit-min-device-pixel-ratio: 1) {
     body {
         width: 100%;
         padding: 0px;
