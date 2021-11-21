@@ -1,6 +1,6 @@
 :root {
     --black: #0D090A;
-    --red: #BE0E34;
+    --red: #e72a59;
     --yellow: #F2BB05;
     --blue: #33ABD7;
     --cream: #F7F7FF;
@@ -49,12 +49,12 @@ header {
     color: var(--cream);
     text-decoration: none;
     font-family: 'Bayon', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     display: block;
 }
 
 .site-banner span+span {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Bayon', sans-serif;
 }
 
@@ -83,7 +83,7 @@ header {
 
 label {
     color: var(--black);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     display: block;
     text-align: center;
 }
@@ -128,17 +128,17 @@ label:hover {
 
 .navigation-main ul li a,
 .navigation-main ul li {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     background-color: var(--cream);
     text-decoration: none;
-    padding: 2.5vh 0px;
+    padding: 1.5vh 0px;
 }
 
 
 /* grey out current page */
 
 .navigation-main ul li strong {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--grey);
     opacity: .7;
