@@ -71,14 +71,14 @@ function changeSlide(n) {
     } else if (slideIndex < 1) {
         slideIndex = 100;
     }
-    console.log(slideIndex);
+    //console.log(slideIndex);
     checkChildren();
     const img = document.createElement("img");
     // a little unelegant. slide version of lazy load. check if img has been loaded yet
     if (images[slideIndex - 1].classList == null || images[slideIndex - 1].className == "") {
         img.src = images[slideIndex - 1].src;
     } else {
-        console.log("this image hasn't loaded yet");
+        //console.log("this image hasn't loaded yet");
         img.src = images[slideIndex - 1].dataset.src;
         img.classList.remove('lazy');
     }

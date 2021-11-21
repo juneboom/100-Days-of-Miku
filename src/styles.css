@@ -338,7 +338,7 @@ img:hover {
     color: var(--cream);
     bottom: 8vh;
     left: 65vw;
-    max-width: 70%;
+    max-width: 50%;
     font-size: 1.2rem;
     background-color: rgba(0, 0, 0, .8);
     padding: 5px;
