@@ -127,6 +127,7 @@ label:hover {
 /* link styles */
 
 .navigation-main ul li a,
+.navigation-main ul li a:visited,
 .navigation-main ul li {
     font-size: 1.5rem;
     background-color: var(--cream);
@@ -145,7 +146,7 @@ label:hover {
 }
 
 .navigation-main ul li a:hover,
-.navigation-main ul li a:visited {
+{
     color: var(--black);
     text-decoration: underline;
     text-decoration-color: var(--blue);
@@ -395,6 +396,7 @@ footer i {
         margin: 0;
     }
     .navigation-main ul li a,
+    .navigation-main ul li a:visited,
     .navigation-main ul li {
         font-size: 1.5rem;
         background-color: var(--cream);
