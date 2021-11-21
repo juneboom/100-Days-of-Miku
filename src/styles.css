@@ -370,7 +370,7 @@ footer i {
 
 /* change elements when window is at least 850 wide */
 
-@media (min-width: 850px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
     body {
         width: 100%;
         padding: 0px;
@@ -487,9 +487,9 @@ footer i {
 }
 
 
-/* change elements when window is at least 1850px */
+/* change elements when window is at least 1000px */
 
-@media (min-width: 992px) {
+@media (min-width: 1500px) {
     .nav-menu {
         align-items: center;
         justify-content: center;
