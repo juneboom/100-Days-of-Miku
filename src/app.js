@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function() {
             var scrollTop = window.pageYOffset;
             lazyloadImages.forEach(function(img) {
                 //check if the images are within the viewport
-                if (img.offsetTop < (window.innerHeight + scrollTop)) {
+                if (((window.innerHeight + scrollTop) / img.offsetTop) > .85) {
                     img.src = img.dataset.src;
                     img.classList.remove('lazy');
                 }

@@ -134,7 +134,7 @@ label:hover {
 .navigation-main ul li a:visited,
 .navigation-main ul li {
     font-size: 1.5rem;
-    color: inherit;
+    color: var(--blue);
     background-color: var(--cream);
     text-decoration: none;
     padding: 1.5vh 0px;
