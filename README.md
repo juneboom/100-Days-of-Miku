@@ -19,7 +19,7 @@ Image gallery of 100 Hatsune Miku drawings.
 
 - [Live Site](https://juneboom.github.io/100-Days-of-Miku/)
 
-### Screenshot
+### Screenshots
 
 ![](./images/100DaysMiku01.png)
 ![](./images/100DaysMiku02.png)
